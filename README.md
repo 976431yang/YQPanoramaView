@@ -42,10 +42,9 @@ iOS端-720°全景环绕图展示控件，带鱼眼效果，仿insta360
 ##### 使用非常简单
 ```objective-c
     //初始化
-    self.panaromview = [[YQPanoramaView alloc]initWithFrame:CGRectMake(20,
-     																	20,
-      																	self.view.frame.size.width-40,
-       																	self.view.frame.size.height-80)];
+    self.panaromview = [[YQPanoramaView alloc]initWithFrame:CGRectMake(20,20,
+                                                                       self.view.frame.size.width-40,
+                                                                       self.view.frame.size.height-80)];
     
     //设图片
     self.panaromview.image = [UIImage imageNamed:@"WechatIMG67.jpeg"];
