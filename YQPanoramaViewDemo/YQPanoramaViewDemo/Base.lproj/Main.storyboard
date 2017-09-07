@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鱼眼效果（建议开启）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcN-PH-CQz">
+                                <rect key="frame" x="68" y="633" width="234" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="YrG-gf-T7q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OaZ-bq-bFf">
+                                <rect key="frame" x="310" y="628" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="3wp-N2-1pt"/>
+                                    <constraint firstAttribute="height" constant="31" id="UMP-AP-kpw"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="touchedSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="DCU-p8-a6F"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRX-Bv-ObT">
+                                <rect key="frame" x="16" y="629" width="44" height="30"/>
+                                <color key="backgroundColor" red="0.81340233760000002" green="1" blue="0.73236454870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6Jm-KB-uPE"/>
+                                    <constraint firstAttribute="width" constant="44" id="ccB-ei-Qbg"/>
+                                </constraints>
+                                <state key="normal" title="换图"/>
+                                <connections>
+                                    <action selector="touchedBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rmi-MV-evA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OaZ-bq-bFf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="99q-qZ-HDt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KRX-Bv-ObT" secondAttribute="bottom" constant="8" id="Rna-Kk-btp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XcN-PH-CQz" secondAttribute="bottom" constant="13" id="bN3-HN-S0A"/>
+                            <constraint firstItem="OaZ-bq-bFf" firstAttribute="leading" secondItem="XcN-PH-CQz" secondAttribute="trailing" constant="8" id="qc9-IP-16K"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OaZ-bq-bFf" secondAttribute="bottom" constant="8" id="tdG-Sk-Ncv"/>
+                            <constraint firstItem="KRX-Bv-ObT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="u4Z-2j-nBS"/>
+                            <constraint firstItem="XcN-PH-CQz" firstAttribute="leading" secondItem="KRX-Bv-ObT" secondAttribute="trailing" constant="8" id="w1y-vt-r2V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="theswitch" destination="OaZ-bq-bFf" id="ebW-Pv-fyV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>

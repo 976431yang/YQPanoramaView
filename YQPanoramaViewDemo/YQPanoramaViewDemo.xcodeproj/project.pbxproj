@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9543C3B71F60EA3800EABBAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543C3B61F60EA3800EABBAB /* main.m */; };
+		9543C3BA1F60EA3800EABBAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543C3B91F60EA3800EABBAB /* AppDelegate.m */; };
+		9543C3BD1F60EA3800EABBAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543C3BC1F60EA3800EABBAB /* ViewController.m */; };
+		9543C3C01F60EA3800EABBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3BE1F60EA3800EABBAB /* Main.storyboard */; };
+		9543C3C21F60EA3800EABBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3C11F60EA3800EABBAB /* Assets.xcassets */; };
+		9543C3C51F60EA3800EABBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3C31F60EA3800EABBAB /* LaunchScreen.storyboard */; };
+		9543C3D21F60ED1100EABBAB /* YQPanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543C3D11F60ED1100EABBAB /* YQPanoramaView.m */; };
+		9543C3D91F60ED7B00EABBAB /* WechatIMG67.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3D41F60ED7B00EABBAB /* WechatIMG67.jpeg */; };
+		9543C3DA1F60ED7B00EABBAB /* WechatIMG70.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3D51F60ED7B00EABBAB /* WechatIMG70.jpeg */; };
+		9543C3DB1F60ED7B00EABBAB /* WechatIMG71.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3D61F60ED7B00EABBAB /* WechatIMG71.jpeg */; };
+		9543C3DC1F60ED7B00EABBAB /* WechatIMG72.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3D71F60ED7B00EABBAB /* WechatIMG72.jpeg */; };
+		9543C3DD1F60ED7B00EABBAB /* WechatIMG73.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9543C3D81F60ED7B00EABBAB /* WechatIMG73.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9543C3B21F60EA3800EABBAB /* YQPanoramaViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQPanoramaViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9543C3B61F60EA3800EABBAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9543C3B81F60EA3800EABBAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9543C3B91F60EA3800EABBAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9543C3BB1F60EA3800EABBAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9543C3BC1F60EA3800EABBAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9543C3BF1F60EA3800EABBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9543C3C11F60EA3800EABBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9543C3C41F60EA3800EABBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9543C3C61F60EA3800EABBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9543C3D01F60ED1100EABBAB /* YQPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPanoramaView.h; sourceTree = "<group>"; };
+		9543C3D11F60ED1100EABBAB /* YQPanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPanoramaView.m; sourceTree = "<group>"; };
+		9543C3D41F60ED7B00EABBAB /* WechatIMG67.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG67.jpeg; sourceTree = "<group>"; };
+		9543C3D51F60ED7B00EABBAB /* WechatIMG70.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG70.jpeg; sourceTree = "<group>"; };
+		9543C3D61F60ED7B00EABBAB /* WechatIMG71.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG71.jpeg; sourceTree = "<group>"; };
+		9543C3D71F60ED7B00EABBAB /* WechatIMG72.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG72.jpeg; sourceTree = "<group>"; };
+		9543C3D81F60ED7B00EABBAB /* WechatIMG73.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG73.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9543C3AF1F60EA3800EABBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9543C3A91F60EA3800EABBAB = {
+			isa = PBXGroup;
+			children = (
+				9543C3B41F60EA3800EABBAB /* YQPanoramaViewDemo */,
+				9543C3B31F60EA3800EABBAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9543C3B31F60EA3800EABBAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9543C3B21F60EA3800EABBAB /* YQPanoramaViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9543C3B41F60EA3800EABBAB /* YQPanoramaViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9543C3CF1F60ED1100EABBAB /* YQPanoramaView */,
+				9543C3B81F60EA3800EABBAB /* AppDelegate.h */,
+				9543C3B91F60EA3800EABBAB /* AppDelegate.m */,
+				9543C3BB1F60EA3800EABBAB /* ViewController.h */,
+				9543C3BC1F60EA3800EABBAB /* ViewController.m */,
+				9543C3BE1F60EA3800EABBAB /* Main.storyboard */,
+				9543C3C11F60EA3800EABBAB /* Assets.xcassets */,
+				9543C3C31F60EA3800EABBAB /* LaunchScreen.storyboard */,
+				9543C3C61F60EA3800EABBAB /* Info.plist */,
+				9543C3B51F60EA3800EABBAB /* Supporting Files */,
+			);
+			path = YQPanoramaViewDemo;
+			sourceTree = "<group>";
+		};
+		9543C3B51F60EA3800EABBAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9543C3D31F60ED7B00EABBAB /* DemoImage */,
+				9543C3B61F60EA3800EABBAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9543C3CF1F60ED1100EABBAB /* YQPanoramaView */ = {
+			isa = PBXGroup;
+			children = (
+				9543C3D01F60ED1100EABBAB /* YQPanoramaView.h */,
+				9543C3D11F60ED1100EABBAB /* YQPanoramaView.m */,
+			);
+			path = YQPanoramaView;
+			sourceTree = "<group>";
+		};
+		9543C3D31F60ED7B00EABBAB /* DemoImage */ = {
+			isa = PBXGroup;
+			children = (
+				9543C3D41F60ED7B00EABBAB /* WechatIMG67.jpeg */,
+				9543C3D51F60ED7B00EABBAB /* WechatIMG70.jpeg */,
+				9543C3D61F60ED7B00EABBAB /* WechatIMG71.jpeg */,
+				9543C3D71F60ED7B00EABBAB /* WechatIMG72.jpeg */,
+				9543C3D81F60ED7B00EABBAB /* WechatIMG73.jpeg */,
+			);
+			path = DemoImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9543C3B11F60EA3800EABBAB /* YQPanoramaViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9543C3C91F60EA3800EABBAB /* Build configuration list for PBXNativeTarget "YQPanoramaViewDemo" */;
+			buildPhases = (
+				9543C3AE1F60EA3800EABBAB /* Sources */,
+				9543C3AF1F60EA3800EABBAB /* Frameworks */,
+				9543C3B01F60EA3800EABBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQPanoramaViewDemo;
+			productName = YQPanoramaViewDemo;
+			productReference = 9543C3B21F60EA3800EABBAB /* YQPanoramaViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9543C3AA1F60EA3800EABBAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = freakyyang;
+				TargetAttributes = {
+					9543C3B11F60EA3800EABBAB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKAC5QB95T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9543C3AD1F60EA3800EABBAB /* Build configuration list for PBXProject "YQPanoramaViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9543C3A91F60EA3800EABBAB;
+			productRefGroup = 9543C3B31F60EA3800EABBAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9543C3B11F60EA3800EABBAB /* YQPanoramaViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9543C3B01F60EA3800EABBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9543C3C51F60EA3800EABBAB /* LaunchScreen.storyboard in Resources */,
+				9543C3DC1F60ED7B00EABBAB /* WechatIMG72.jpeg in Resources */,
+				9543C3C21F60EA3800EABBAB /* Assets.xcassets in Resources */,
+				9543C3DA1F60ED7B00EABBAB /* WechatIMG70.jpeg in Resources */,
+				9543C3DB1F60ED7B00EABBAB /* WechatIMG71.jpeg in Resources */,
+				9543C3D91F60ED7B00EABBAB /* WechatIMG67.jpeg in Resources */,
+				9543C3C01F60EA3800EABBAB /* Main.storyboard in Resources */,
+				9543C3DD1F60ED7B00EABBAB /* WechatIMG73.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9543C3AE1F60EA3800EABBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9543C3BD1F60EA3800EABBAB /* ViewController.m in Sources */,
+				9543C3BA1F60EA3800EABBAB /* AppDelegate.m in Sources */,
+				9543C3B71F60EA3800EABBAB /* main.m in Sources */,
+				9543C3D21F60ED1100EABBAB /* YQPanoramaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9543C3BE1F60EA3800EABBAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9543C3BF1F60EA3800EABBAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9543C3C31F60EA3800EABBAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9543C3C41F60EA3800EABBAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9543C3C71F60EA3800EABBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9543C3C81F60EA3800EABBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9543C3CA1F60EA3800EABBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQPanoramaViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQPanoramaViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9543C3CB1F60EA3800EABBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQPanoramaViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQPanoramaViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9543C3AD1F60EA3800EABBAB /* Build configuration list for PBXProject "YQPanoramaViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9543C3C71F60EA3800EABBAB /* Debug */,
+				9543C3C81F60EA3800EABBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9543C3C91F60EA3800EABBAB /* Build configuration list for PBXNativeTarget "YQPanoramaViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9543C3CA1F60EA3800EABBAB /* Debug */,
+				9543C3CB1F60EA3800EABBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9543C3AA1F60EA3800EABBAB /* Project object */;
+}
